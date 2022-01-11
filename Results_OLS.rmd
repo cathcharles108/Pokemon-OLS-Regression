@@ -1,0 +1,707 @@
+All Pokémon OLS Regression
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Speed   R-squared:                       0.058
+Model:                            OLS   Adj. R-squared:                  0.056
+Method:                 Least Squares   F-statistic:                     27.37
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):           2.90e-12
+Time:                        14:43:26   Log-Likelihood:                -4249.2
+No. Observations:                 897   AIC:                             8504.
+Df Residuals:                     894   BIC:                             8519.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         59.7183      1.288     46.367      0.000      57.191      62.246
+Weight        -0.0361      0.011     -3.431      0.001      -0.057      -0.015
+Height         7.2180      1.007      7.168      0.000       5.242       9.194
+==============================================================================
+Omnibus:                       31.775   Durbin-Watson:                   1.574
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.811
+Skew:                           0.440   Prob(JB):                     2.76e-08
+Kurtosis:                       3.394   Cond. No.                         213.
+==============================================================================
+
+
+Pokémon sorted by Type
+1. Grass
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Grass Speed   R-squared:                       0.159
+Model:                            OLS   Adj. R-squared:                  0.143
+Method:                 Least Squares   F-statistic:                     9.818
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):           0.000124
+Time:                        14:22:30   Log-Likelihood:                -490.25
+No. Observations:                 107   AIC:                             986.5
+Df Residuals:                     104   BIC:                             994.5
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         41.6226      4.392      9.477      0.000      32.913      50.332
+Weight        -0.1635      0.075     -2.176      0.032      -0.313      -0.014
+Height        23.0518      5.588      4.125      0.000      11.971      34.133
+==============================================================================
+Omnibus:                        4.897   Durbin-Watson:                   1.681
+Prob(Omnibus):                  0.086   Jarque-Bera (JB):                4.777
+Skew:                           0.517   Prob(JB):                       0.0918
+Kurtosis:                       2.950   Cond. No.                         171.
+==============================================================================
+
+
+2. Poison
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Poison Speed   R-squared:                       0.198
+Model:                            OLS   Adj. R-squared:                  0.174
+Method:                 Least Squares   F-statistic:                     8.142
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):           0.000691
+Time:                        14:23:35   Log-Likelihood:                -315.40
+No. Observations:                  69   AIC:                             636.8
+Df Residuals:                      66   BIC:                             643.5
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         59.2278      4.129     14.346      0.000      50.985      67.471
+Weight         0.0307      0.115      0.268      0.789      -0.198       0.260
+Height         3.4414      5.608      0.614      0.542      -7.755      14.638
+==============================================================================
+Omnibus:                        2.955   Durbin-Watson:                   1.702
+Prob(Omnibus):                  0.228   Jarque-Bera (JB):                2.903
+Skew:                           0.469   Prob(JB):                        0.234
+Kurtosis:                       2.638   Cond. No.                         276.
+==============================================================================
+
+
+3. Fire
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Fire Speed   R-squared:                       0.184
+Model:                            OLS   Adj. R-squared:                  0.160
+Method:                 Least Squares   F-statistic:                     7.659
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):            0.00100
+Time:                        14:24:08   Log-Likelihood:                -321.72
+No. Observations:                  71   AIC:                             649.4
+Df Residuals:                      68   BIC:                             656.2
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         57.7650      5.647     10.229      0.000      46.496      69.034
+Weight        -0.1505      0.048     -3.128      0.003      -0.247      -0.055
+Height        22.0697      5.672      3.891      0.000      10.752      33.387
+==============================================================================
+Omnibus:                        2.011   Durbin-Watson:                   1.522
+Prob(Omnibus):                  0.366   Jarque-Bera (JB):                1.516
+Skew:                          -0.159   Prob(JB):                        0.469
+Kurtosis:                       2.359   Cond. No.                         289.
+==============================================================================
+
+
+4. Flying
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Flying Speed   R-squared:                       0.088
+Model:                            OLS   Adj. R-squared:                  0.069
+Method:                 Least Squares   F-statistic:                     4.763
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):             0.0106
+Time:                        14:33:37   Log-Likelihood:                -458.91
+No. Observations:                 102   AIC:                             923.8
+Df Residuals:                      99   BIC:                             931.7
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         74.0988      3.324     22.292      0.000      67.503      80.694
+Weight        -0.0897      0.038     -2.386      0.019      -0.164      -0.015
+Height         8.9363      2.916      3.064      0.003       3.150      14.723
+==============================================================================
+Omnibus:                       10.272   Durbin-Watson:                   2.217
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               10.369
+Skew:                           0.687   Prob(JB):                      0.00560
+Kurtosis:                       3.741   Cond. No.                         222.
+==============================================================================
+
+
+5. Water
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Water Speed   R-squared:                       0.033
+Model:                            OLS   Adj. R-squared:                  0.019
+Method:                 Least Squares   F-statistic:                     2.362
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):             0.0980
+Time:                        14:34:49   Log-Likelihood:                -642.96
+No. Observations:                 141   AIC:                             1292.
+Df Residuals:                     138   BIC:                             1301.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         60.2487      2.597     23.197      0.000      55.113      65.384
+Weight         0.0419      0.046      0.901      0.369      -0.050       0.134
+Height         1.1235      2.215      0.507      0.613      -3.255       5.502
+==============================================================================
+Omnibus:                        3.890   Durbin-Watson:                   1.602
+Prob(Omnibus):                  0.143   Jarque-Bera (JB):                3.472
+Skew:                           0.375   Prob(JB):                        0.176
+Kurtosis:                       3.166   Cond. No.                         123.
+==============================================================================
+
+
+6. Bug
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              Bug Speed   R-squared:                       0.119
+Model:                            OLS   Adj. R-squared:                  0.097
+Method:                 Least Squares   F-statistic:                     5.452
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):            0.00601
+Time:                        14:35:50   Log-Likelihood:                -404.87
+No. Observations:                  84   AIC:                             815.7
+Df Residuals:                      81   BIC:                             823.0
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         42.3701      6.498      6.520      0.000      29.441      55.299
+Weight        -0.1047      0.096     -1.085      0.281      -0.297       0.087
+Height        24.3964      8.357      2.919      0.005       7.768      41.025
+==============================================================================
+Omnibus:                       14.732   Durbin-Watson:                   2.037
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               16.431
+Skew:                           0.954   Prob(JB):                     0.000270
+Kurtosis:                       4.026   Cond. No.                         183.
+==============================================================================
+
+
+7. Normal
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Normal Speed   R-squared:                       0.152
+Model:                            OLS   Adj. R-squared:                  0.137
+Method:                 Least Squares   F-statistic:                     10.07
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):           9.49e-05
+Time:                        14:36:20   Log-Likelihood:                -530.97
+No. Observations:                 115   AIC:                             1068.
+Df Residuals:                     112   BIC:                             1076.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         49.9643      4.867     10.266      0.000      40.321      59.607
+Weight        -0.1433      0.054     -2.634      0.010      -0.251      -0.036
+Height        25.4166      5.891      4.315      0.000      13.745      37.088
+==============================================================================
+Omnibus:                        1.345   Durbin-Watson:                   1.653
+Prob(Omnibus):                  0.511   Jarque-Bera (JB):                1.200
+Skew:                          -0.082   Prob(JB):                        0.549
+Kurtosis:                       2.527   Cond. No.                         258.
+==============================================================================
+
+
+8. Electric
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         Electric Speed   R-squared:                       0.044
+Model:                            OLS   Adj. R-squared:                  0.009
+Method:                 Least Squares   F-statistic:                     1.242
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):              0.297
+Time:                        14:36:50   Log-Likelihood:                -281.19
+No. Observations:                  57   AIC:                             568.4
+Df Residuals:                      54   BIC:                             574.5
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         74.3445      8.082      9.199      0.000      58.141      90.548
+Weight         0.0703      0.106      0.665      0.509      -0.141       0.282
+Height         4.6156      9.264      0.498      0.620     -13.958      23.190
+==============================================================================
+Omnibus:                        4.179   Durbin-Watson:                   1.863
+Prob(Omnibus):                  0.124   Jarque-Bera (JB):                3.248
+Skew:                           0.552   Prob(JB):                        0.197
+Kurtosis:                       3.386   Cond. No.                         193.
+==============================================================================
+
+
+9. Ground
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Ground Speed   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                 -0.011
+Method:                 Least Squares   F-statistic:                    0.6448
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):              0.528
+Time:                        14:37:23   Log-Likelihood:                -308.88
+No. Observations:                  67   AIC:                             623.8
+Df Residuals:                      64   BIC:                             630.4
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         53.9760      4.289     12.584      0.000      45.407      62.544
+Weight        -0.0085      0.020     -0.424      0.673      -0.049       0.032
+Height         2.5043      2.225      1.125      0.265      -1.941       6.950
+==============================================================================
+Omnibus:                        2.512   Durbin-Watson:                   1.368
+Prob(Omnibus):                  0.285   Jarque-Bera (JB):                2.371
+Skew:                           0.386   Prob(JB):                        0.306
+Kurtosis:                       2.496   Cond. No.                         307.
+==============================================================================
+
+
+10. Fairy
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Fairy Speed   R-squared:                       0.224
+Model:                            OLS   Adj. R-squared:                  0.193
+Method:                 Least Squares   F-statistic:                     7.350
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):            0.00157
+Time:                        14:37:59   Log-Likelihood:                -254.81
+No. Observations:                  54   AIC:                             515.6
+Df Residuals:                      51   BIC:                             521.6
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         50.1716      6.507      7.710      0.000      37.108      63.236
+Weight         0.1997      0.101      1.987      0.052      -0.002       0.401
+Height         6.3575      8.409      0.756      0.453     -10.525      23.240
+==============================================================================
+Omnibus:                        6.341   Durbin-Watson:                   1.411
+Prob(Omnibus):                  0.042   Jarque-Bera (JB):                5.881
+Skew:                           0.806   Prob(JB):                       0.0528
+Kurtosis:                       3.117   Cond. No.                         162.
+==============================================================================
+
+
+11. Fighting
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         Fighting Speed   R-squared:                       0.137
+Model:                            OLS   Adj. R-squared:                  0.107
+Method:                 Least Squares   F-statistic:                     4.609
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):             0.0139
+Time:                        14:38:32   Log-Likelihood:                -281.68
+No. Observations:                  61   AIC:                             569.4
+Df Residuals:                      58   BIC:                             575.7
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         52.0905      8.822      5.905      0.000      34.432      69.749
+Weight         0.0245      0.038      0.646      0.521      -0.051       0.101
+Height        13.2314      7.495      1.765      0.083      -1.771      28.233
+==============================================================================
+Omnibus:                        6.579   Durbin-Watson:                   1.417
+Prob(Omnibus):                  0.037   Jarque-Bera (JB):                5.711
+Skew:                           0.704   Prob(JB):                       0.0575
+Kurtosis:                       3.514   Cond. No.                         491.
+==============================================================================
+
+
+12. Psychic
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Psychic Speed   R-squared:                       0.098
+Model:                            OLS   Adj. R-squared:                  0.077
+Method:                 Least Squares   F-statistic:                     4.692
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):             0.0116
+Time:                        14:39:09   Log-Likelihood:                -424.46
+No. Observations:                  89   AIC:                             854.9
+Df Residuals:                      86   BIC:                             862.4
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         57.6089      5.170     11.143      0.000      47.331      67.887
+Weight        -0.0446      0.048     -0.924      0.358      -0.141       0.051
+Height        13.5541      4.598      2.948      0.004       4.413      22.695
+==============================================================================
+Omnibus:                        2.936   Durbin-Watson:                   1.342
+Prob(Omnibus):                  0.230   Jarque-Bera (JB):                1.796
+Skew:                           0.065   Prob(JB):                        0.407
+Kurtosis:                       2.316   Cond. No.                         190.
+==============================================================================
+
+
+13. Rock
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Rock Speed   R-squared:                       0.042
+Model:                            OLS   Adj. R-squared:                  0.011
+Method:                 Least Squares   F-statistic:                     1.355
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):              0.266
+Time:                        14:39:48   Log-Likelihood:                -300.45
+No. Observations:                  65   AIC:                             606.9
+Df Residuals:                      62   BIC:                             613.4
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         47.3790      4.601     10.297      0.000      38.181      56.577
+Weight        -0.0383      0.029     -1.318      0.192      -0.096       0.020
+Height         5.2094      3.258      1.599      0.115      -1.303      11.722
+==============================================================================
+Omnibus:                       11.836   Durbin-Watson:                   1.450
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.132
+Skew:                           0.948   Prob(JB):                      0.00232
+Kurtosis:                       3.942   Cond. No.                         289.
+==============================================================================
+
+
+14. Steel
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Steel Speed   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                 -0.035
+Method:                 Least Squares   F-statistic:                   0.07374
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):              0.929
+Time:                        14:40:27   Log-Likelihood:                -270.78
+No. Observations:                  56   AIC:                             547.6
+Df Residuals:                      53   BIC:                             553.6
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         58.6924      5.676     10.341      0.000      47.309      70.076
+Weight         0.0090      0.026      0.347      0.730      -0.043       0.061
+Height        -0.5256      3.472     -0.151      0.880      -7.489       6.438
+==============================================================================
+Omnibus:                        3.738   Durbin-Watson:                   1.034
+Prob(Omnibus):                  0.154   Jarque-Bera (JB):                3.537
+Skew:                           0.606   Prob(JB):                        0.171
+Kurtosis:                       2.784   Cond. No.                         431.
+==============================================================================
+
+
+15. Ice
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              Ice Speed   R-squared:                       0.135
+Model:                            OLS   Adj. R-squared:                  0.090
+Method:                 Least Squares   F-statistic:                     2.974
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):             0.0631
+Time:                        14:41:00   Log-Likelihood:                -186.36
+No. Observations:                  41   AIC:                             378.7
+Df Residuals:                      38   BIC:                             383.9
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         49.8906      9.025      5.528      0.000      31.620      68.161
+Weight        -0.0761      0.033     -2.317      0.026      -0.143      -0.010
+Height        15.3766      7.289      2.110      0.042       0.621      30.132
+==============================================================================
+Omnibus:                        7.121   Durbin-Watson:                   1.879
+Prob(Omnibus):                  0.028   Jarque-Bera (JB):                6.215
+Skew:                           0.936   Prob(JB):                       0.0447
+Kurtosis:                       3.365   Cond. No.                         593.
+==============================================================================
+
+
+16. Ghost
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Ghost Speed   R-squared:                       0.121
+Model:                            OLS   Adj. R-squared:                  0.084
+Method:                 Least Squares   F-statistic:                     3.297
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):             0.0455
+Time:                        14:41:37   Log-Likelihood:                -244.99
+No. Observations:                  51   AIC:                             496.0
+Df Residuals:                      48   BIC:                             501.8
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         49.6451      7.514      6.607      0.000      34.536      64.754
+Weight        -0.0937      0.051     -1.836      0.073      -0.196       0.009
+Height        16.0607      6.255      2.568      0.013       3.484      28.638
+==============================================================================
+Omnibus:                        4.756   Durbin-Watson:                   1.355
+Prob(Omnibus):                  0.093   Jarque-Bera (JB):                2.401
+Skew:                           0.258   Prob(JB):                        0.301
+Kurtosis:                       2.070   Cond. No.                         285.
+==============================================================================
+
+
+17. Dragon
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Dragon Speed   R-squared:                       0.193
+Model:                            OLS   Adj. R-squared:                  0.163
+Method:                 Least Squares   F-statistic:                     6.355
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):            0.00336
+Time:                        14:42:09   Log-Likelihood:                -257.99
+No. Observations:                  56   AIC:                             522.0
+Df Residuals:                      53   BIC:                             528.1
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         66.4860      4.372     15.208      0.000      57.717      75.255
+Weight        -0.0232      0.025     -0.936      0.354      -0.073       0.027
+Height         5.4614      1.871      2.920      0.005       1.710       9.213
+==============================================================================
+Omnibus:                        0.864   Durbin-Watson:                   1.767
+Prob(Omnibus):                  0.649   Jarque-Bera (JB):                0.878
+Skew:                           0.128   Prob(JB):                        0.645
+Kurtosis:                       2.443   Cond. No.                         347.
+==============================================================================
+
+
+18. Dark
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Dark Speed   R-squared:                       0.168
+Model:                            OLS   Adj. R-squared:                  0.136
+Method:                 Least Squares   F-statistic:                     5.245
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):            0.00841
+Time:                        14:42:44   Log-Likelihood:                -245.25
+No. Observations:                  55   AIC:                             496.5
+Df Residuals:                      52   BIC:                             502.5
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         62.5773      5.311     11.782      0.000      51.920      73.235
+Weight        -0.1170      0.039     -2.975      0.004      -0.196      -0.038
+Height        15.3372      4.885      3.140      0.003       5.534      25.140
+==============================================================================
+Omnibus:                        3.307   Durbin-Watson:                   1.554
+Prob(Omnibus):                  0.191   Jarque-Bera (JB):                3.148
+Skew:                           0.532   Prob(JB):                        0.207
+Kurtosis:                       2.507   Cond. No.                         321.
+==============================================================================
+
+
+Pokémon sorted by Generation
+1. Generation 1
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Generation 1 Speed   R-squared:                       0.045
+Model:                            OLS   Adj. R-squared:                  0.033
+Method:                 Least Squares   F-statistic:                     3.525
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):             0.0319
+Time:                        14:54:15   Log-Likelihood:                -708.05
+No. Observations:                 151   AIC:                             1422.
+Df Residuals:                     148   BIC:                             1431.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         62.4247      3.459     18.045      0.000      55.589      69.261
+Weight        -0.0369      0.044     -0.831      0.407      -0.124       0.051
+Height         6.9766      2.738      2.548      0.012       1.566      12.387
+==============================================================================
+Omnibus:                        4.417   Durbin-Watson:                   1.398
+Prob(Omnibus):                  0.110   Jarque-Bera (JB):                4.429
+Skew:                           0.386   Prob(JB):                        0.109
+Kurtosis:                       2.670   Cond. No.                         138.
+==============================================================================
+
+
+2. Generation 2
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Generation 2 Speed   R-squared:                       0.044
+Model:                            OLS   Adj. R-squared:                  0.024
+Method:                 Least Squares   F-statistic:                     2.236
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):              0.112
+Time:                        14:54:57   Log-Likelihood:                -469.61
+No. Observations:                 100   AIC:                             945.2
+Df Residuals:                      97   BIC:                             953.0
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         56.1426      4.033     13.919      0.000      48.137      64.148
+Weight         0.0535      0.077      0.691      0.491      -0.100       0.207
+Height         2.2692      4.661      0.487      0.627      -6.982      11.521
+==============================================================================
+Omnibus:                        1.040   Durbin-Watson:                   1.817
+Prob(Omnibus):                  0.594   Jarque-Bera (JB):                1.001
+Skew:                           0.074   Prob(JB):                        0.606
+Kurtosis:                       2.533   Cond. No.                         165.
+==============================================================================
+
+
+3. Generation 3
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Generation 3 Speed   R-squared:                       0.031
+Model:                            OLS   Adj. R-squared:                  0.017
+Method:                 Least Squares   F-statistic:                     2.140
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):              0.122
+Time:                        14:55:33   Log-Likelihood:                -633.27
+No. Observations:                 135   AIC:                             1273.
+Df Residuals:                     132   BIC:                             1281.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         57.5831      3.016     19.092      0.000      51.617      63.549
+Weight         0.0055      0.024      0.233      0.816      -0.041       0.052
+Height         2.9783      1.831      1.627      0.106      -0.644       6.600
+==============================================================================
+Omnibus:                       16.736   Durbin-Watson:                   1.528
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.049
+Skew:                           0.763   Prob(JB):                     4.43e-05
+Kurtosis:                       4.111   Cond. No.                         183.
+==============================================================================
+
+
+4. Generation 4
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Generation 4 Speed   R-squared:                       0.173
+Model:                            OLS   Adj. R-squared:                  0.157
+Method:                 Least Squares   F-statistic:                     10.84
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):           5.29e-05
+Time:                        14:56:01   Log-Likelihood:                -496.08
+No. Observations:                 107   AIC:                             998.2
+Df Residuals:                     104   BIC:                             1006.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         51.7304      4.626     11.183      0.000      42.557      60.904
+Weight        -0.1360      0.037     -3.629      0.000      -0.210      -0.062
+Height        24.8752      5.397      4.609      0.000      14.174      35.577
+==============================================================================
+Omnibus:                        9.370   Durbin-Watson:                   1.541
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):                3.628
+Skew:                           0.093   Prob(JB):                        0.163
+Kurtosis:                       2.117   Cond. No.                         411.
+==============================================================================
+
+
+5. Generation 5
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Generation 5 Speed   R-squared:                       0.166
+Model:                            OLS   Adj. R-squared:                  0.155
+Method:                 Least Squares   F-statistic:                     15.18
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):           9.70e-07
+Time:                        14:56:29   Log-Likelihood:                -727.79
+No. Observations:                 156   AIC:                             1462.
+Df Residuals:                     153   BIC:                             1471.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         44.4704      4.543      9.789      0.000      35.496      53.445
+Weight        -0.1204      0.051     -2.366      0.019      -0.221      -0.020
+Height        27.5530      5.713      4.823      0.000      16.267      38.839
+==============================================================================
+Omnibus:                        2.737   Durbin-Watson:                   1.522
+Prob(Omnibus):                  0.254   Jarque-Bera (JB):                2.773
+Skew:                           0.292   Prob(JB):                        0.250
+Kurtosis:                       2.706   Cond. No.                         294.
+==============================================================================
+
+
+6. Generation 6
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Generation 6 Speed   R-squared:                       0.180
+Model:                            OLS   Adj. R-squared:                  0.156
+Method:                 Least Squares   F-statistic:                     7.557
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):            0.00108
+Time:                        14:56:55   Log-Likelihood:                -328.74
+No. Observations:                  72   AIC:                             663.5
+Df Residuals:                      69   BIC:                             670.3
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         53.9295      4.267     12.639      0.000      45.417      62.442
+Weight        -0.1119      0.048     -2.308      0.024      -0.209      -0.015
+Height        16.3889      4.299      3.813      0.000       7.813      24.964
+==============================================================================
+Omnibus:                        5.136   Durbin-Watson:                   1.536
+Prob(Omnibus):                  0.077   Jarque-Bera (JB):                5.118
+Skew:                           0.644   Prob(JB):                       0.0774
+Kurtosis:                       2.788   Cond. No.                         196.
+==============================================================================
+
+
+7. Generation 7
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Generation 7 Speed   R-squared:                       0.145
+Model:                            OLS   Adj. R-squared:                  0.124
+Method:                 Least Squares   F-statistic:                     7.101
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):            0.00141
+Time:                        14:57:36   Log-Likelihood:                -414.79
+No. Observations:                  87   AIC:                             835.6
+Df Residuals:                      84   BIC:                             843.0
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         59.8490      4.516     13.252      0.000      50.868      68.830
+Weight        -0.0906      0.024     -3.759      0.000      -0.139      -0.043
+Height        10.8825      3.507      3.103      0.003       3.909      17.856
+==============================================================================
+Omnibus:                        4.014   Durbin-Watson:                   1.550
+Prob(Omnibus):                  0.134   Jarque-Bera (JB):                4.008
+Skew:                           0.508   Prob(JB):                        0.135
+Kurtosis:                       2.731   Cond. No.                         386.
+==============================================================================
+
+
+8. Generation 8
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Generation 8 Speed   R-squared:                       0.093
+Model:                            OLS   Adj. R-squared:                  0.072
+Method:                 Least Squares   F-statistic:                     4.406
+Date:                Tue, 11 Jan 2022   Prob (F-statistic):             0.0151
+Time:                        14:58:05   Log-Likelihood:                -436.33
+No. Observations:                  89   AIC:                             878.7
+Df Residuals:                      86   BIC:                             886.1
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         61.0806      4.186     14.593      0.000      52.760      69.401
+Weight        -0.0044      0.027     -0.163      0.871      -0.058       0.050
+Height         5.0525      2.210      2.286      0.025       0.660       9.445
+==============================================================================
+Omnibus:                       20.632   Durbin-Watson:                   1.565
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               29.537
+Skew:                           1.030   Prob(JB):                     3.86e-07
+Kurtosis:                       4.929   Cond. No.                         239.
+==============================================================================
+
+
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
