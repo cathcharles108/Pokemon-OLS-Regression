@@ -42,3 +42,6 @@ The OLS regression of all Pokémon, regardless of type, produces a slight negati
 The OLS regressions of Pokémon dependent on type, however, is no longer as clear-cut. Most of them have similar results: weight correlating negatively, height correlating positively. However, a lot of these results are not statistically significant. Therefore, we cannot draw any conclusions on the results, controlling for Pokémon type.
 
 Controlling Pokémon by Generation also seems to yield similar results to the analysis by Pokémon type. There is a mixture of statistical significance and insignificance throughout the results; additionally, sometimes Weight correlates negatively, yet other times positively. Therefore, we also cannot form any conclusion based on Pokémon Generation. It can therefore be assumed that the creators of Pokémon might have assigned weight, height, and speed statistics to individual Pokémon somewhat arbitrarily.
+
+# Next Steps
+I acknowledge the limitations of this project since I am covering a very narrow scope of Pokémon data. Additionally, a possible extension of this project is to control for another variable that is not type nor Generation.
